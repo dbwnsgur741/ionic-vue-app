@@ -42,3 +42,5 @@ $ Ionic serve --host=0.0.0.0
 
 - <a href="https://ionicframework.com/docs/theming/color-generator">앱 테마 컬러 설정하기 </a>
 
+- <a href="https://ionicframework.com/docs/api/thumbnail"> 이미지 썸네일 형식 </a>
+
