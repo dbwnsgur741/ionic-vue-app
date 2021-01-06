@@ -33,8 +33,9 @@ $ Ionic serve
 - <a href="https://ionicframework.com/docs/cli/commands/serve#advanced-options">실행 명령어 옵션 보기 </a> 
 
 ```
-$ Ionic serve --host : 0.0.0.0 
+$ Ionic serve --host=0.0.0.0 
 ```
 
 # Change ionic-vue ( 01 / 06 )
 
+- <a href="https://ionicframework.com/docs/vue/quickstart#build-your-way-with-typescript-or-javascript">TypeScript 를 Javascript 로 변경하기 </a>
