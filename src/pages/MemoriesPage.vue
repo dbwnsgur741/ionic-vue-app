@@ -1,34 +1,25 @@
 <template>
-    <ion-page>
-        <ion-header>
-            <ion-toolbar>
-                <ion-title>All Memories</ion-title>
-            </ion-toolbar>
-        </ion-header>
-        <ion-content>
-            <ion-List>
-                <ion-item>aa</ion-item>
-                <ion-item>bb</ion-item>
-                <ion-item>cc</ion-item>
-                <ion-item>dd</ion-item>
-            </ion-List>
-        </ion-content>
-    </ion-page>
+    <base-layout page-title="All Memories">
+        <ion-List>
+            <ion-item>A trip into the mountains</ion-item>
+            <ion-item>Sunrise</ion-item>
+            <ion-item>cc</ion-item>
+            <ion-item>dd</ion-item>
+        </ion-List>
+    </base-layout>
 </template>
 
 
 <script>
-import { IonPage, IonHeader, IonTitle, IonContent,IonToolbar,IonList, IonItem } from "@ionic/vue";
-
-export default {
-    components: {
-        IonPage,
-        IonHeader,
-        IonTitle,
-        IonContent,
-        IonToolbar,
+    import {
         IonList,
         IonItem
+    } from "@ionic/vue";
+
+    export default {
+        components: {
+            IonList,
+            IonItem
+        }
     }
-}
 </script>
