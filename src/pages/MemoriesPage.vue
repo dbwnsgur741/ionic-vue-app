@@ -1,10 +1,18 @@
 <template>
     <base-layout page-title="All Memories">
         <ion-List>
-            <ion-item>A trip into the mountains</ion-item>
-            <ion-item>Sunrise</ion-item>
-            <ion-item>cc</ion-item>
-            <ion-item>dd</ion-item>
+            <ion-item
+                v-for="memory in memories"
+                :router-link = "`/Memories/${memory.id}`"
+                :key="memory.id"
+            >
+            <ion-thumbnail slot="start">
+                <ion-img :src="memory.image" :alt="memory.title"></ion-img>
+            </ion-thumbnail>
+            <ion-label>
+                {{ memory.title}}
+            </ion-label>
+            </ion-item>
         </ion-List>
     </base-layout>
 </template>
@@ -13,13 +21,43 @@
 <script>
     import {
         IonList,
-        IonItem
+        IonItem,
+        Ionimg,
+        IonThumbnail,
+        IonLabel
     } from "@ionic/vue";
 
     export default {
         components: {
             IonList,
-            IonItem
+            IonItem,
+            Ionimg,
+            IonThumbnail,
+            IonLabel,
+        },
+        data(){
+            return{
+                memories:[
+                    {
+                        id: "m1",
+                        image : "https://cdn11.bigcommerce.com/s-qmkmkpbc/images/stencil/1280x1280/products/9418/60177/GIBSON-LES-PAUL-SLASH-APPETITE-AMBER-BURST-207000339-angle-left__01119.1591033942.jpg?c=2",
+                        title: "Gibson - 레스폴",
+                        description: "Sounds Good",
+                    },
+                    {
+                        id: "m2",
+                        image : "https://canary.contestimg.wish.com/api/webimage/5e6929a45a2b18a5d247b2b1-large.jpg?cache_buster=be7c676c7a3a5322b255014d02afb895",
+                        title: "Fender - 스트렛 ",
+                        description: "It is a really nice trip",
+                    },
+                    {
+                        id: "m3",
+                        image : "https://canary.contestimg.wish.com/api/webimage/5e6929a45a2b18a5d247b2b1-large.jpg?cache_buster=be7c676c7a3a5322b255014d02afb895",
+                        title: "Fender - 텔레",
+                        description: "It is a really nice trip",
+                    },
+                ]
+            }
         }
     }
 </script>
