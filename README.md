@@ -1,5 +1,4 @@
 <h1 align="center"> Ionic Simple App </h1>
-<p align="center"><img src="ionic_logo.png" width="240"></p>
 
 <h3 align="center"><a href="https://ionicframework.com/docs/intro/cli">Installing Ionic</a></h3>
 
@@ -11,7 +10,7 @@
 
 - Npm (v) : 6.14.8
 
-- NodeJs (v) : 12.20.0
+- NodeJs (v) : 14.20.0
 
 # init ( 01 / 04 )
 
@@ -34,5 +33,8 @@ $ Ionic serve
 - <a href="https://ionicframework.com/docs/cli/commands/serve#advanced-options">실행 명령어 옵션 보기 </a> 
 
 ```
-$ Ionic serve --host : 0.0.0.0 --port : 82
+$ Ionic serve --host : 0.0.0.0 
 ```
+
+# Change ionic-vue ( 01 / 06 )
+
