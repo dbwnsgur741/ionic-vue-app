@@ -44,3 +44,11 @@ $ Ionic serve --host=0.0.0.0
 
 - <a href="https://ionicframework.com/docs/api/thumbnail"> 이미지 썸네일 형식 </a>
 
+# install vuex ( 01 / 07 )
+
+```
+$ npm install --save vuex/next
+```
+
+- Vue.js 상태관리자인 Vuex를 통해 각종 변수 관리 
+- store ( 폴더 ) 에서 state() , getter() 를 통해 각각 컴포넌트에 관련된 변수 가져옴 
