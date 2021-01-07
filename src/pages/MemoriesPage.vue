@@ -15,7 +15,7 @@
         computed: {
             memories() {
                 return this.$store.getters.memories;
-            }
+            } 
         }
     }
 </script>
