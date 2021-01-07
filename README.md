@@ -51,4 +51,6 @@ $ npm install --save vuex/next
 ```
 
 - Vue.js 상태관리자인 Vuex를 통해 각종 변수 관리 
-- store ( 폴더 ) 에서 state() , getter() 를 통해 각각 컴포넌트에 관련된 변수 가져옴 
+- store ( 폴더 ) 에서 state() , getter() 를 통해 각각 컴포넌트에 관련된 변수 가져옴
+
+- <a href="https://ionicons.com/"> Ionic 아이콘 </a>

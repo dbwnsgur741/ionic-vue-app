@@ -6,3 +6,7 @@ ion-toolbar {
 ion-back-button{
     --color: var(--ion-color-primary-contrast);
 }
+
+ion-icon{
+    --color: var(--ion-color-primary-contrast);
+}
